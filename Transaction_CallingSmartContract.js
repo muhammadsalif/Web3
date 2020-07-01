@@ -60,6 +60,10 @@ let abi = [
 ];
 
 const contract = new web3.eth.Contract(abi, contractAddress);
+// Three steps :
+// 1. Build the transaction.
+// 2. Signed the transaction
+// 3. Send the transaction
 
 web3.eth.getTransactionCount(account1, (err, txCount) => {
   const txObject = {
