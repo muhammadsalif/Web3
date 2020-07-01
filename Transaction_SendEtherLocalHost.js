@@ -1,4 +1,4 @@
-// Updating or doing new transactions on web application and connecting to web3
+//Doing transaction to local host Ganache
 var Tx = require("ethereumjs-tx");
 const Web3 = require("web3");
 const { Buffer } = require("buffer");
